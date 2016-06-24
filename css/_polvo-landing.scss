@@ -4,7 +4,7 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:		'Dosis', "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:		'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $polvo-font-family-base:		$font-family-sans-serif !default;
 
 
@@ -62,14 +62,14 @@ body {
 	font-size: 60px;
 }
 
-.lead {
-	font-size: 36px;
-	font-weight: 400;
-}
-
 .marketing {
 	font-size: 24px;
 	font-weight: 300;
+	
+	.lead {
+		font-size: 36px;
+		font-weight: 400;
+	}
 }
 
 .callout {
